@@ -1,0 +1,34 @@
+<section class="products">
+     <app-product 
+     (addToCartClick)="addToCart($event)"
+     [product]="product"
+      *ngFor="let product of products">     
+     </app-product> 
+    <!--mat-card class="card" *ngFor="let product of products">
+        <mat-card-header>
+            <mat-card-title color="primary">
+                {{ product.name }}
+            </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            {{product.name}}
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-flat-button color="success"> Comprar {{ product.price | currency: 'USD' }}<mat-icon>
+                    add_shopping_cart </mat-icon>
+            </button>
+        </mat-card-actions>
+    </mat-card-->
+</section>
+
+
+
+
+
+
+<!-- INTERPOLACION DE DATAS PIPE -->
+
+
+<!--pre>
+{{ products|json }}
+</pre-->

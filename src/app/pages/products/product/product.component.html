@@ -1,0 +1,18 @@
+
+<mat-card class="card">
+    <mat-card-header>
+        <img src="./assets/logo.png" class="img">
+        <mat-card-title color="primary">
+            {{ product.name }}
+        </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        {{product.description}}
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-flat-button color="success" (click)="onClick()">
+             Comprar {{ product.price | currency: 'USD' }}<mat-icon>
+                add_shopping_cart </mat-icon>
+        </button>
+    </mat-card-actions>
+</mat-card>

@@ -1,0 +1,29 @@
+.img{
+  width: 45px;
+  height: 45px;
+  align-items:stretch;
+}
+
+.card {
+    margin:10px;
+    min-height: 220px;
+    min-width: 300px;
+    max-width: 380px;
+    height: 100px;
+   
+}
+  .mat-card{
+      background-color: rgba(248, 12, 130, 0.582);
+     font-style: none;
+
+    }
+  .mat-flat-button.mat-success{
+    color: #f0fff3;
+    background-color: #000000;
+  }
+  
+  .mat-card-title{
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    
+  }

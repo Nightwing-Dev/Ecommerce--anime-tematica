@@ -1,0 +1,33 @@
+/*.mat-grid-tile {
+    background: rgb(0, 0, 0);
+  }
+
+.container{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 253, 253);
+}
+
+.bebe{
+  text-align:right;
+  font-size: xx-large;
+}
+
+.mat-card{
+  background-color: rgb(46, 0, 44);
+}*/
+.filler {
+  flex: 1 1 auto;
+}
+.gap {
+  margin-right: 10px;
+}
+
+.gatito{
+  flex: 1 1 auto;
+}
+
+a{
+  text-decoration: none;
+  color: #fff
+}
